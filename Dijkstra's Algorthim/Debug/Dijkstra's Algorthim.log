@@ -1,0 +1,7 @@
+﻿  Dijkstra's Algorthim.cpp
+D:\C++ & OPP\Dijkstra's Algorthim\Dijkstra's Algorthim\Dijkstra's Algorthim.cpp(154,27): warning C4018: '<': signed/unsigned mismatch
+D:\C++ & OPP\Dijkstra's Algorthim\Dijkstra's Algorthim\Dijkstra's Algorthim.cpp(162,27): warning C4018: '<': signed/unsigned mismatch
+D:\C++ & OPP\Dijkstra's Algorthim\Dijkstra's Algorthim\Dijkstra's Algorthim.cpp(169,27): warning C4018: '<': signed/unsigned mismatch
+D:\C++ & OPP\Dijkstra's Algorthim\Dijkstra's Algorthim\Dijkstra's Algorthim.cpp(205,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\C++ & OPP\Dijkstra's Algorthim\Dijkstra's Algorthim\Dijkstra's Algorthim.cpp(110): warning C4715: 'Graph::shortestPath': not all control paths return a value
+  Dijkstra's Algorthim.vcxproj -> D:\C++ & OPP\Dijkstra's Algorthim\Debug\Dijkstra's Algorthim.exe
