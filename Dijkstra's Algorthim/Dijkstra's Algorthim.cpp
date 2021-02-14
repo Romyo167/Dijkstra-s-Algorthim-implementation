@@ -1,7 +1,6 @@
 // Dijkstra's Algorthim.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-
 #include <iostream>
 #include <vector>
 #include <tuple>
@@ -155,7 +154,12 @@ int find_shortest_path(vector <tuple<int, int, int>> C, int s, int d) {
             if (get<0>(C[i]) == s)
                 curr.push_back(make_tuple(get<0>(C[i]), get<1>(C[i]), get<2>(C[i])));
         }
-
+        // Pushes the neighbours as undirected graph
+        // The od one was a directed graph
+        for (int i = 0; i < C.size(); i++) {
+            if (get<1>(C[i]) == s)
+                curr.push_back(make_tuple(get<1>(C[i]), get<0>(C[i]), get<2>(C[i])));
+        }
         int least = 0;
 
         // it checks for least distance   
@@ -242,4 +246,10 @@ int main()
 
 
 }
+
+
+
+
+
+
 
